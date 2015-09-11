@@ -52,16 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-MDM/AFNetworkActivityLogger.framework'
-  install_framework 'Pods-MDM/AFNetworking.framework'
   install_framework 'Pods-MDM/Bolts.framework'
-  install_framework 'Pods-MDM/PSTAlertController.framework'
   install_framework 'Pods-MDM/Parse.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-MDM/AFNetworkActivityLogger.framework'
-  install_framework 'Pods-MDM/AFNetworking.framework'
   install_framework 'Pods-MDM/Bolts.framework'
-  install_framework 'Pods-MDM/PSTAlertController.framework'
   install_framework 'Pods-MDM/Parse.framework'
 fi

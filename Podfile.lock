@@ -1,44 +1,13 @@
 PODS:
-  - AFNetworkActivityLogger (2.0.4):
-    - AFNetworking/NSURLConnection (~> 2.0)
-    - AFNetworking/NSURLSession (~> 2.0)
-  - AFNetworking (2.6.0):
-    - AFNetworking/NSURLConnection (= 2.6.0)
-    - AFNetworking/NSURLSession (= 2.6.0)
-    - AFNetworking/Reachability (= 2.6.0)
-    - AFNetworking/Security (= 2.6.0)
-    - AFNetworking/Serialization (= 2.6.0)
-    - AFNetworking/UIKit (= 2.6.0)
-  - AFNetworking/NSURLConnection (2.6.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.0)
-  - AFNetworking/Security (2.6.0)
-  - AFNetworking/Serialization (2.6.0)
-  - AFNetworking/UIKit (2.6.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-  - Bolts/Tasks (1.2.1)
-  - Parse (1.8.2):
-    - Bolts/Tasks (>= 1.2.1)
-  - PSTAlertController (1.1.0)
+  - Bolts/Tasks (1.2.2)
+  - Parse (1.8.3):
+    - Bolts/Tasks (>= 1.2.2)
 
 DEPENDENCIES:
-  - AFNetworkActivityLogger
-  - AFNetworking
   - Parse
-  - PSTAlertController
 
 SPEC CHECKSUMS:
-  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
-  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
-  Bolts: 7686a5cb204d1ac54cee26f12d9b7622db3f80d1
-  Parse: 188601c6cd91fae55906badd283b513104a3a8c9
-  PSTAlertController: cb21afcfa76c3229feec7db044afd4f60dab5892
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  Parse: 4b251ac63b76d12b334a32579cc3b174446f0c39
 
 COCOAPODS: 0.38.2

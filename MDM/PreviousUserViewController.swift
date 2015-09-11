@@ -59,7 +59,7 @@ class PreviousUserViewController : UITableViewController {
       for aUser in users {
         for aBorrowedDevice in filteredBorrowedArray {
           if let userObjectId = aUser.objectId {
-            if userObjectId == aBorrowedDevice.userId {
+            if userObjectId == aBorrowedDevice.userId() {
               tmpObjtByDay.append(PFObjectFake(userInfo: aUser, borrowedDevice: aBorrowedDevice))
             }
           }
